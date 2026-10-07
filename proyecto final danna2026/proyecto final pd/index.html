@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web luna </title> 
+    <link rel="stylesheet" href="./static/css/estilos.css">
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="shortcut icon" href="https://i.pinimg.com/736x/a4/50/38/a45038fa34fa64d5a27f7ddb165262be.jpg" type="image/x-icon">
+</head>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web Oficial - Proyecto Final</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- NAVEGACIÓN -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">MiTienda</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#catalogo">Catálogo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#videos">Videos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#especificaciones">Especificaciones</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./templates/Contacto.html">Contacto</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./templates/Inicia Sesion.html">Iniciar Sesión</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./templates/Registrate.htm">Registrarse</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+    <!-- SLIDER / CARRUSEL DE IMÁGENES (Bootstrap) -->
+    <section class="mb-5">
+        <div id="carruselPrincipal" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carruselPrincipal" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carruselPrincipal" data-bs-slide-to="1"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://i.pinimg.com/736x/af/66/0a/af660a5c56656edea32d53c7191ab79f.jpg" class="d-block w-100" alt="Promoción 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Nuevos Productos</h5>
+                        <p>Descubre lo último en nuestro catálogo de arte  exclusivo.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.pinimg.com/736x/30/af/f7/30aff70436a1f6dc8650af1618917fe6.jpg" class="d-block w-100" alt="Promoción 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Calidad Garantizada</h5>
+                        <p>los mejores materiales que podras encontrar.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselPrincipal" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselPrincipal" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- CATÁLOGO DE  NUESTROS PRODUCTOS -->
+    <section id="catalogo" class="container my-5">
+        <h2 class="text-center mb-4">Catálogo de Productos</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://i.pinimg.com/1200x/08/9b/7e/089b7efc0e175c9194a863f23e4fa972.jpg" class="card-img-top" alt="Producto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">PINES</h5>
+                        <p class="card-text">Nuestros pines personalizados y unicos con alta calidad y diseño.</p>
+                        <a href="#" class="btn btn-primary">Comprar $29.99</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://i.pinimg.com/1200x/ad/b3/6e/adb36eb3311eae953531f823498d1fac.jpg" class="card-img-top" alt="Producto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">SEPARADORES DE LIBROS </h5>
+                        <p class="card-text">nuestros increibles separadores personalizados para los amantes de libros .</p>
+                        <a href="#" class="btn btn-primary">Comprar $49.99</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://i.pinimg.com/736x/51/17/f3/5117f38834200dbd68c4155748dfc517.jpg" class="card-img-top" alt="Producto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">POSTERS</h5>
+                        <p class="card-text">La mejores opción de posters personalizados una serie? pelicula? videojuego? que esperas.</p>
+                        <a href="#" class="btn btn-primary">Comprar $19.99</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LISTAS Y VIDEOS DE DEMOSTRACIÓN -->
+    <section id="videos" class="container my-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Características de nuestra tienda </h3>
+                <ul>
+                    <li>Diseño adaptable (al gusto de nuestros clientes ).</li>
+                    <li>diseños unicos y confiables .</li>
+                    <li>Formularios interactivos y funcionales.</li>
+                    <li>Registros confiables .</li>
+                    <li>Envios a todo el mundo .</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Video explicativo </h3>
+                <div class="ratio ratio-16x9">
+                    <video controls>
+                        <source src="assets/video/demo.mp4" type="">
+                    </video>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/DJkf_ZOSrPc?si=eSMJadeLcAsRK06h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TABLA DE ESPECIFICACIONES -->
+    <section id="especificaciones" class="container my-5">
+        <h3 class="text-center mb-3">Tabla Comparativa</h3>
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered text-center">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Modelo</th>
+                        <th>Almacenamiento</th>
+                        <th>Garantía</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Básico</td>
+                        <td>64 GB</td>
+                        <td>1 Año</td>
+                        <td>$199</td>
+                    </tr>
+                    <tr>
+                        <td>Pro</td>
+                        <td>128 GB</td>
+                        <td>2 Años</td>
+                        <td>$399</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <!-- SECCION DE MARCAS -->
+<section class="bg-white">
+    <div class="container">
+        <h2 class="text-center mb-11">NUESTROS CLIENTES</h2>
+        <div class="marquee">
+            <div class="marquee-content d-flex align-items">
+                <img src="https://play-lh.googleusercontent.com/_OrKvCvTU10UNkMyayAvF1wyzYMFyB34H9jouQ7h9DrH4W_yYPqwLSqf1bRwch0N6JMH3P4Rc_X4XldgovbEWA" alt="" class="mx-10" height="100px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1J9HHBaEXNyFYAg5_20_Mp9Ho5v7cZmD7Bwrc3vn2ig&s=10" alt="" class="mx-10" height="100px">
+                <img src="https://ibispaint-x.uptodown.com/android" alt="" class="mx-10" height="100px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLzythcjcv-0k-MZHONueXQ8b0hEgD5f2g-KWFZPgKtA&s=10" alt="" class="mx-10" height="100px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR60sPDY__7LusZJUJnHEaUhoJr3PZS2Yula0Rml-jaNg&s=10" alt="" class="mx-10" height="100px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxEjh7EfKyOdW0yzFr6SNn4vk0ep5_ndZDoDpQPOwUmA&s=10" alt="" class="mx-10" height="100px">
+                <img src="https://play-lh.googleusercontent.com/_OrKvCvTU10UNkMyayAvF1wyzYMFyB34H9jouQ7h9DrH4W_yYPqwLSqf1bRwch0N6JMH3P4Rc_X4XldgovbEWA" alt="" class="mx-10" height="100px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1J9HHBaEXNyFYAg5_20_Mp9Ho5v7cZmD7Bwrc3vn2ig&s=10" alt="" class="mx-10" height="100px">
+                <img src="https://ibispaint-x.uptodown.com/android" alt="" class="mx-10" height="100px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLzythcjcv-0k-MZHONueXQ8b0hEgD5f2g-KWFZPgKtA&s=10" alt="" class="mx-10" height="100px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR60sPDY__7LusZJUJnHEaUhoJr3PZS2Yula0Rml-jaNg&s=10" alt="" class="mx-10" height="100px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxEjh7EfKyOdW0yzFr6SNn4vk0ep5_ndZDoDpQPOwUmA&s=10" alt="" class="mx-10" height="100px">
+                <!-- COPIA -->
+                <img src="https://play-lh.googleusercontent.com/_OrKvCvTU10UNkMyayAvF1wyzYMFyB34H9jouQ7h9DrH4W_yYPqwLSqf1bRwch0N6JMH3P4Rc_X4XldgovbEWA" alt="" class="mx-10" height="100px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1J9HHBaEXNyFYAg5_20_Mp9Ho5v7cZmD7Bwrc3vn2ig&s=10" alt="" class="mx-10" height="100px">
+                <img src="https://ibispaint-x.uptodown.com/android" alt="" class="mx-5" height="100px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLzythcjcv-0k-MZHONueXQ8b0hEgD5f2g-KWFZPgKtA&s=10" alt="" class="mx-10" height="100px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR60sPDY__7LusZJUJnHEaUhoJr3PZS2Yula0Rml-jaNg&s=10" alt="" class="mx-10" height="100px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxEjh7EfKyOdW0yzFr6SNn4vk0ep5_ndZDoDpQPOwUmA&s=10" alt="" class="mx-10" height="100px">
+                <img src="https://play-lh.googleusercontent.com/_OrKvCvTU10UNkMyayAvF1wyzYMFyB34H9jouQ7h9DrH4W_yYPqwLSqf1bRwch0N6JMH3P4Rc_X4XldgovbEWA" alt="" class="mx-10" height="100px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1J9HHBaEXNyFYAg5_20_Mp9Ho5v7cZmD7Bwrc3vn2ig&s=10" alt="" class="mx-10" height="100px">
+                <img src="https://ibispaint-x.uptodown.com/android" alt="" class="mx-10" height="100px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLzythcjcv-0k-MZHONueXQ8b0hEgD5f2g-KWFZPgKtA&s=10" alt="" class="mx-10" height="100px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR60sPDY__7LusZJUJnHEaUhoJr3PZS2Yula0Rml-jaNg&s=10" alt="" class="mx-10" height="100px">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxEjh7EfKyOdW0yzFr6SNn4vk0ep5_ndZDoDpQPOwUmA&s=10" alt="" class="mx-10" height="100px">
+            </div>
+            
+        </div>
+    </div>
+</section>
+        <!-- MAPA DE UBICACION -->
+            <div class="col-md-6">
+            <h5 class="text-center mb-3">NUESTRA UBICACION</h5>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7953.418187389975!2d-74.13173225985823!3d4.645886442148215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9c0b484fdb79%3A0x14aa4d9d70fb5f52!2sEl%20Eden%20Mall!5e0!3m2!1sen!2sco!4v1790773962775!5m2!1sen!2sco" width="200%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+    </div>
+    </div>
+</section>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p class="mb-0">&copy; 2026 Proyecto Web - Todos los derechos reservados a danna.</p>
+        <div class="social-icons">
+    <a href="ttps://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="https://co.pinterest.com/" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+    <a href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+    </div>
+    </footer>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

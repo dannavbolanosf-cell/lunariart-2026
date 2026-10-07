@@ -1,0 +1,42 @@
+/*SECCION DE MARCAS*/
+.marquee{
+    display: flex;
+    animation: scrolmarquesina 50s linear infinite;
+    gap:50px;}
+    @keyframes scrolmarquesina{
+    0%{
+        transform: translatex(0);
+    }
+    100%{
+        transform: translatex(-100%);
+    }
+    
+}
+
+/* Estilos personalizados del sitio */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Personalización del carrusel */
+.carousel-item img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+/* Efecto hover en las tarjetas del catálogo */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2) !important;
+}
+
+/* Personalización del pie de página */
+footer {
+    border-top: 3px solid #ff0000;
+}
